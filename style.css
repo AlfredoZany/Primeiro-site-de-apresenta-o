@@ -1,0 +1,140 @@
+body{
+margin: 0;
+}
+
+.Cabeça,
+.rodape
+{
+    display: grid;
+    place-items: center;
+    /*para alinhar o texto na vertical*/
+    
+  
+    
+    height: 50vh;
+    background:linear-gradient(to right bottom, #ff4f4f,#ff7d1b);
+    color: white;
+    /*linear-gradient para inserir mistura de cores*/
+    box-shadow: 0 4px 4px #0004;
+    
+    
+    
+}
+.Cabeça h1,
+.rodape__b
+
+{
+    margin: 0;
+    text-shadow: 0 4px 4px #0004;
+
+    /*colocar sombra em um texto ou bottom*/
+    width: 17ch;
+    
+    
+    
+
+
+}
+.textoimg{
+    text-align: center;
+   
+    position: relative;
+    top: -75px; ;
+}
+
+.textoimg__texto{
+    max-width: 75ch;
+    /*definir a quantidade de caracteres por linha sem precisar ficar usando o br*/
+    font-size: 15px;
+   
+    color: black;
+    margin: 16px auto;
+    font-style: italic;    
+      
+    
+}
+
+.textoimg__Avatar{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+         
+}
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    /*raiz da html mac om mais opções*/
+}
+.textoimg__links,
+.footer
+{
+    display:grid ;
+    grid-auto-flow: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #0085FF;
+  }
+  .footer{
+    position: relative;
+    bottom: 0;
+    width: 98vw;
+    padding: 2px;
+    background: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+ 
+
+
+  }
+  .footer__social{
+    margin: 0;
+    
+    
+   
+
+  }
+  .geral__texto{
+    
+    max-width: 75ch;
+    /*definir a quantidade de caracteres por linha sem precisar ficar usando o br*/
+    font-size: 15px;
+   
+    color: black;
+    margin: 16px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   text-align: justify;
+  }
+  .geral__prog{
+    margin: 0;
+    display: grid;
+    text-align: center;
+    position: relative;
+    align-content: center;
+
+   
+   
+  
+    width: 500px;
+    height: 200px;
+    
+  
+  }
+  .geral__espec,
+  .geral__classe
+  {
+    max-width: 75ch;
+    /*definir a quantidade de caracteres por linha sem precisar ficar usando o br*/
+    font-size: 15px;
+   
+    color: black;
+    margin: 16px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 15px;
+  }
+  
